@@ -1,0 +1,74 @@
+
+
+.login-box {
+    background-color: white;
+    width: 30vw;
+    height: 80vh;
+    position: absolute;
+
+    background-size: cover;
+    /* opacity: 100%; */
+
+
+}
+
+.login-form-box {
+    margin-top: 4vh;
+    margin-left: 5vw;
+}
+
+.login-form-box .logo{
+    background-image: url('../../statistic/images/logo-04.png');
+    height: 14vh;
+    width: 16vw;
+    margin-left: 2vw;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+.login-form-box .text-box{
+    font-size: 2vw;
+    text-align: center;
+    margin-right: 4vw;
+    
+}
+
+.login-form-box .error-message{
+    font-size: 0.8vw;
+    text-align: center;
+    margin-right: 4vw;
+    color: red;
+    
+}
+
+.login-form-box .text-copyright{
+    font-size: 0.9vw;
+    text-align: center;
+    margin-right: 4vw;
+    color: rgb(13, 14, 15);
+}
+
+.login-form-input {
+    width: 18vw;
+    height: 7vh;
+    border-color: rgb(44, 111, 169);
+    border-radius: 5%;
+    border-width: 1px;
+    /* background-color: transparent; */
+    margin: 1vh;
+    text-align: center;
+    color:rgb(5, 5, 5);
+    font-size: 1vw;
+}
+
+.login-form-submit {
+    width: 18vw;
+    height: 7vh;
+    border-color: rgb(240, 240, 255);
+    border-radius: 5%;
+    border-width: 1px;
+    background-color: rgb(138, 14, 226);
+    margin-top: 1vh;
+    margin-left: 0.8vw;
+}

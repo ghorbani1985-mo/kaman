@@ -1,0 +1,94 @@
+@import url(../main.css);
+
+.main-container .proceed{
+    width: var(--main_width);
+    height: 100vh;
+    /* border: 1px solid;
+    border-color: rgb(214, 27, 27); */
+    margin-left: 1vw;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    background-color: var(--box-color)
+ }
+
+
+ .main-container .proceed .title{
+    width: var(--main_width);
+    height: 10vh;
+    border: 1px solid;
+    border-color: rgb(246, 242, 242);
+    background-color: rgb(219, 217, 215); 
+ }
+
+ .main-container .proceed .title .text{
+    width: 20vw;
+    height: 8vh;
+    /* border: 1px solid;
+    border-color: rgb(214, 27, 27); */
+    background-color: rgb(219, 217, 215);
+    float: right;
+    font-size: 1.3vw;
+    columns: black;
+    padding-top: 1vh;
+    padding-right: 2vw;
+    text-align: right;
+ }
+
+ .main-container .proceed .title .export{
+    width: 3vw;
+    height: 7vh;
+    /* border: 1px solid;
+    border-color: rgb(214, 27, 27); */
+    background-color: rgb(219, 217, 215);
+    float: left;
+    margin-left: 2vw;
+
+    border-radius: 50%;
+ }
+
+ .main-container .proceed .title .export:hover{
+    background-color: rgb(230, 160, 54);
+
+ }
+
+ .main-container .proceed .chart{
+    width: var(--main_width);
+    height: 90vh;
+    /* border: 1px solid;
+    border-color: rgb(214, 27, 27); */
+    background-color: rgb(246, 244, 241);
+ }
+
+ .main-container .proceed .chart .filter{
+    width: var(--main_width);
+    height: 10vh;
+    /* border: 1px solid;
+    border-color: rgb(214, 27, 27); */
+    background-color: rgb(246, 244, 241);
+ }
+
+ .main-container .proceed .chart .filter .search{
+    width: 12vw;
+    height: 5vh;
+    /* border: 1px solid;
+    border-color: rgb(37, 59, 170); */
+    background-color: rgb(246, 244, 241);
+    color: black;
+    font-size:0.8vw;
+    float: right;
+    text-align: center;
+    margin-top: 2vh;
+    margin-right: 1vw;
+ }
+
+ .main-container .proceed .chart .show-chart{
+    width: var(--main_width);
+    height: 80vh;
+    border: 1px solid;
+    /* border-color: rgb(214, 27, 27);
+    background-color: rgb(246, 244, 241); */
+    display: flex;
+    flex-wrap: wrap;
+    position:relative;
+    overflow: auto;
+ }

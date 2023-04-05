@@ -1,0 +1,30 @@
+:root {
+   --main_width: 80vw;
+   --box-color: white;
+ }
+
+.main-container {
+   float: right;
+   width: 82vw;
+   height: 90vh;
+   padding-right: 1vw;
+   overflow: auto;
+   scrollbar-width: none;
+   -ms-overflow-style: none;
+   color: #f6fcf9;
+   display: flex;
+   flex-wrap: wrap;
+   position:relative;
+   font-size: 1vw; 
+   border: 1px solid;
+   border-color: rgb(244, 241, 247);
+   background-color: rgb(227, 236, 243);
+   
+}
+
+.main-container::-webkit-scrollba{
+   display: none;
+}
+
+
+

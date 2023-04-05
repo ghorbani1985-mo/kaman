@@ -1,0 +1,49 @@
+@import url("fonts.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  [type="text"],
+  [type="email"],
+  [type="url"],
+  [type="password"],
+  [type="number"],
+  [type="date"],
+  [type="datetime-local"],
+  [type="month"],
+  [type="search"],
+  [type="tel"],
+  [type="time"],
+  [type="week"],
+  [multiple],
+  [textarea],
+  [select] {
+    @apply w-full text-blue-800 rounded-md bg-blue-800 focus:bg-yellow-100 dark:focus:bg-slate-800 focus:ring focus:ring-sky-500 border-2 border-solid border-gray-300 px-3 py-2;
+  }
+  [type="checkbox"],
+  [type="radio"] {
+    @apply rounded border-2 focus:ring focus:ring-sky-500 border-solid border-gray-300;
+  }
+  [type="submit"], [button] {
+    @apply text-white bg-blue-800 hover:bg-white transition-all ease-in-out duration-700 hover:border hover:border-blue-800 hover:text-blue-800 font-medium rounded-lg text-sm w-full px-5 py-2 text-center dark:bg-blue-800 dark:hover:bg-blue-800 dark:focus:ring-blue-800;
+  }
+}
+.perfectCenter{
+  @apply flex justify-center items-center;
+}
+.spaceBetween{
+  @apply flex justify-between items-center;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "IRANSansFaNum", Tahoma, Geneva, Verdana, sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    position: relative;
+  }
+  a{
+    text-decoration: none !important;
+  }

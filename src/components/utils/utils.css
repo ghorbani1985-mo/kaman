@@ -1,0 +1,118 @@
+.main-header {
+    width: 100vw;
+    height: 11vh;
+    background-color:  #3c3a3c;
+    /* background-color:  #717071; */
+}
+
+.main-header .logo{
+    width: 10vw;
+    height: 9vh;
+    margin-right: 3vw;
+    background: url('../../statistic/images/logo-11.png');
+    float: right;
+    background-repeat: no-repeat;
+    background-size:130% 110%;
+    
+}
+
+.main-header .profile{
+    width: 40vw;
+    height: 9vh;
+    margin-left: 5vw;
+    margin-top: 2vh;
+    float: left;
+    display: flex;
+    
+
+}
+
+.main-header .profile .text{
+    
+    text-align: center;
+    color: aliceblue;
+    font-size: 1vw;
+}
+
+.main-header .profile .avatar{
+    margin-left:0vw;
+    color: aliceblue;
+}
+
+.main-header .profile .dropdown{
+    margin-right:2vw;
+    text-align: "center";
+    margin-bottom: 1vh;
+
+}
+
+
+
+ #dropdown-basic-button{
+    background-color: transparent;
+    color: white;
+    border-color: transparent;
+ }
+
+
+ .right-menu {
+    background-color: #2a282a;
+    width: 18vw;
+    height: 91vh; 
+    float: right;
+    padding-top: 5vh;
+ }
+
+
+ .right-menu .item{
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 7vh;
+    display: inline-block;
+    padding-top: 1vh;
+    font-size: 1vw;
+    margin-bottom: 1vw;
+ }
+
+ .right-menu .item:hover{
+
+    background-color: rgb(71, 54, 54);
+
+ }
+
+ #dropdown-basic{
+    background-color: transparent;
+    color: white;
+    border-color: transparent;
+ }
+ #dropdown-basic:after{
+    display: none !important;
+ }
+
+ #dropdown-basic:hover .dropdown-content{
+    display: block;
+ }
+
+
+ .right-menu .item .submenu{
+   color: white;
+   text-align: center;
+   width: 100%;
+   height: 7vh;
+   display: inline-block;
+   padding-top: 0vh;
+   font-size: 1vw;
+}
+
+
+.right-menu .item .submenu-item{
+   font-size: 1vw;
+}
+
+.right-menu .footer {
+   color: white;
+   text-align: center;
+   font-size: 1vw;
+   margin-top: 25vh;
+}
